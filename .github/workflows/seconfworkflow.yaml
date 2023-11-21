@@ -7,7 +7,7 @@ run-name: |
   with ${{github.event_name}} event 
 
   on branch ${{github.repository}}" 
-on: null
+on: 
 push:
   branches:
     - main
